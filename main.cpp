@@ -1,27 +1,18 @@
 //
 //  main.cpp
-//  TrainOpenClassroom
+//  TrainOpenClassroom2
 //
-//  Created by Abdoullatif Omarjee on 28/02/2024.
+//  Created by Abdoullatif Omarjee on 19/03/2024.
 //
 
-#include "main.hpp"
-#include "Personnage.hpp"
 #include <iostream>
-#include <string>
-#include <fstream>
+#include "Personnage.hpp"
+#include "Magicien.hpp"
+#include "Guerrier.hpp"
 
-using namespace std;
-
-
-
-int main(){
-    
-    Personnage Vegeta;
-    Personnage Goku(Vegeta);
-    
-    Vegeta.afficherPointeur();
-    Goku.afficherPointeur();
-    
-    return 0;
+int main(int argc, const char * argv[]) {
+    Personnage Marcel("Marcel");
+    Marcel.sePresenter();
+    Guerrier Lancelot("lancelot");
+    Lancelot.sePresenter();
 }
