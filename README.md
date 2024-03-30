@@ -5,4 +5,6 @@ The objectives of this course were twofold:
 
 I was able to see all the aspects of object-oriented programming.
 
-NB: the files are numbered by part of the course 
+NB: 
+- the files are numbered by part of the course 
+- the course is in french 🇫🇷
